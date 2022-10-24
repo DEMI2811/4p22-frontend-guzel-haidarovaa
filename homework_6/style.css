@@ -5,8 +5,6 @@
 body {
     margin: 0;
     padding: 0;
- 
-    
 }
 
 
@@ -27,14 +25,12 @@ body {
     font-family: Tahoma, Verdana, sans-serif;
     box-shadow: 19px 11px 16px 0px #808080;
   
-
 }
 
 
 .container-book__sidebar {
     position: fixed;
     width: 20%;
-    border: 1px solid;
     margin-top: 20px;
     box-shadow: 19px 11px 16px 0px #808080;
     margin-left: 15px;
@@ -48,6 +44,7 @@ h2 {
     font-family: Tahoma, Verdana, sans-serif;
     font-size: 15px;
 }
+
 
 .book {
     width: 80%;
@@ -66,8 +63,6 @@ h2 {
     font-weight: bold;
     box-shadow: 19px 11px 16px 0px #6d6767;
 
-
-   
 }
 
 .book-box__name {
