@@ -40,11 +40,9 @@ body {
 }
 
 .form__input-email {
-    flex-direction: column;
-    margin-bottom: calc(14/ 1440* 100vw);
+    margin-bottom: calc(32/ 1440* 100vw);
     margin-left: calc(45/ 1440* 100vw);
-    margin-top: calc(14/ 1440* 100vw);
-    padding-top: calc(36/1440*100vw);
+    margin-top: calc(36/ 1440* 100vw);
 }
 
 
@@ -57,7 +55,7 @@ body {
     border: calc(2/1440*100vw) solid #787878;
     border-radius: calc(10/1440*100vw);
     background: #FFFFFF;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto';
     font-style: normal; 
     font-weight:calc(700/1440*100vw);
     font-size: calc(28/1440*100vw);
@@ -68,7 +66,6 @@ body {
 
 ::placeholder {
     color: #CCCCCC;
-    padding: calc(12 / 1440 * 100vw);
     transform: translateY(calc(0.3 / 1440 * 100vw));
 
 }
