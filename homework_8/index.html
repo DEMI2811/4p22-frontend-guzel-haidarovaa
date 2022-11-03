@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>
+        <form class="form">
+            <div class="form-input">
+                <div class="form__input-number1">
+                    <input class="input" id="number1" name="number1" type="text"  placeholder="Введите число">
+                </div> 
+                <div>
+                    <div class="form__input-operator">
+                        <input class="operator" id="operator" name="operator" type="text" placeholder="+ - / *">
+                    </div>
+                </div>
+                <div class="form__input-number2">
+                    <input class="input" id="number2" name="number2" type="text" placeholder="Введите число">
+                </div>
+                <div class="form__button">
+                    <button onclick="func()" id="submit">Рассчитать</button>
+                </div>
+                <p id="out"></p>  
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
