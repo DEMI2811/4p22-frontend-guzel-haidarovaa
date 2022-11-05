@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Калькулятор</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,regular,italic,500,700,900," rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <form class="form">
             <div class="form-input">
-                <div class="form__input-number1">
-                    <input class="input" id="number1" name="number1" type="text"  placeholder="Введите число">
+                <div class="form__input-num1">
+                    <input class="input" id="num1" name="num1" type="text"  placeholder="Введите число">
                 </div> 
                 <div>
                     <div class="form__input-operator">
-                        <input class="operator" id="operator" name="operator" type="text" placeholder="+ - / *">
+                        <input class="input" id="operator" name="operator" type="text" placeholder="+ - / *">
                     </div>
                 </div>
-                <div class="form__input-number2">
-                    <input class="input" id="number2" name="number2" type="text" placeholder="Введите число">
+                <div class="form__input-num2">
+                    <input class="input" id="num2" name="numb2" type="text" placeholder="Введите число">
                 </div>
                 <div class="form__button">
-                    <button onclick="func()" id="submit">Рассчитать</button>
+                    <button class="form-button__input" onclick="func()" id="submit">Рассчитать</button>
                 </div>
-                <p id="out"></p>  
+                <div  class="resultform" id="resultform"></div>  
             </div>
         </form>
     </main>
