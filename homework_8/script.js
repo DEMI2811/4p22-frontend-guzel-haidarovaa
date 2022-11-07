@@ -3,7 +3,7 @@
     const button = document.getElementById('submit');
     const resultform = document.getElementById('resultform');
 
-button.addEventListener('click', (Event) => {
+    button.addEventListener('click', (Event) => {
      
     const num1 = document.getElementById('num1').value;
     const operator = document.getElementById('operator').value;
