@@ -56,10 +56,11 @@ body {
     font-size: calc(24/1440*100vw);
     font-family: "Inter";
     font-style: bold;
-    color: #787878;
+    color: #1a226b;
     line-height: 29px;
     align-self: center;
-    fill: solid #787878;
+    fill: solid #1a226b;
+   
 }
 
 .header__login {
@@ -72,8 +73,9 @@ body {
     font-style: bold;
     line-height: calc(29/1440*100vw);
     align: left;
-    color: #1a226b;
-    fill: solid #1a226b;
+    color: #787878;
+    fill: solid #787878;
+   
 }
 
 
@@ -167,7 +169,9 @@ body {
     fill: solid #787878;
 }
 
-
+.form__button {
+    margin-bottom: 20px;
+}
 
 .form-button__input {
     width: calc(180 / 1440 * 100vw);
@@ -233,10 +237,10 @@ body {
         font-size: calc(16/768*100vw);
         font-family: "Inter";
         font-style: bold;
-        color: #787878;
+        color: #1a226b;
         line-height: 29px;
         align-self: center;
-        fill: solid #787878;
+        fill: solid #1a226b;
     }
 
     .header__login {
@@ -249,8 +253,8 @@ body {
         font-style: bold;
         line-height: calc(19/768*100vw);
         align: left;
-        color: #1a226b;
-        fill: solid #1a226b;
+        color: #787878;
+        fill: solid #787878;
     }
 
     .form {
@@ -337,13 +341,17 @@ body {
         fill: solid #787878;
     }
 
+    .form__button {
+        padding-bottom: 20px;
+    }
+
    
     .form-button__input {
         width: calc(180 / 768* 100vw);
         height: calc(52 / 768 * 100vw);
         position: absolute;
         left: calc(210 /768* 100vw);
-        padding: 0;
+        padding:0;
         border: 0;
         align-items: center;
         color: #FFFFFF;

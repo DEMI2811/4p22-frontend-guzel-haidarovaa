@@ -55,10 +55,10 @@ body {
     font-size: calc(24/1440*100vw);
     font-family: "Inter";
     font-style: bold;
-    color: #787878;
+    color: rgb(120, 120, 120);
     line-height: 29px;
     align-self: center;
-    fill: solid #787878;
+    fill: solid #1a226b;
 }
 
 .header__login {
@@ -71,8 +71,8 @@ body {
     font-style: bold;
     line-height: calc(29/1440*100vw);
     align: left;
-    color: #1a226b;
-    fill: solid #1a226b;
+    color: #787878;
+    fill: solid #787878;
 }
 
 
@@ -355,10 +355,10 @@ body {
     font-size: calc(16/768*100vw);
     font-family: "Inter";
     font-style: bold;
-    color: #787878;
+    color: #1a226b;
     line-height: calc(19/768*100vw);
     align-self: center;
-    fill: solid #787878;
+    fill: solid #1a226b;
 }
 
 .header__login {
@@ -371,8 +371,8 @@ body {
     font-style: bold;
     line-height: calc(19/768*100vw);
     align: left;
-    color: #1a226b;
-    fill: solid #1a226b;
+    color: #787878;
+    fill: solid #787878;
 }
 
 
