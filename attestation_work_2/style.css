@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+        height: calc(80 / 1440 * 100vw);
+        display: flex;
+        box-shadow: 0px calc(4 / 1440 * 100vw) calc(4 / 1440 * 100vw) rgba(0, 0, 0, 0.25);
+        font-family: Bold;
+        align-items: center;
+}
+
+
+.header__logo {
+    display: flex;
+    width: calc(222/1440*100vw);
+    height: calc(50/1440*100vw);
+    padding-top: calc(18/1440*100vw);
+    padding-left: calc(30/1440*100vw);
+    align-self: center;
+    margin-bottom: calc(12/1440*100vw);
+}
+
+
+.header__h1 {
+    display: flex;
+    width:calc(242/1440*100vw);
+    height:calc(44/1440*100vw);
+    margin: 21px 0px 15px 30px;
+    margin-right: calc(650/1440*100vw);
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: bold;
+    font-size:calc(36/1440*100vw);
+    align-self: center;
+    line-height:calc(44/1440*100vw);
+    align: left;
+    color: #787878;
+    fill: solid #787878;
+  }
+
+
+
+.header__registration{
+    width: calc(157/1440*100vw);
+    height: calc(29/1440*100vw);
+    margin-bottom: calc(26/1440*100vw);
+    margin-right: calc(28/1440*100vw);
+    text-decoration: none;
+    font-size: calc(24/1440*100vw);
+    font-family: "Inter";
+    font-style: bold;
+    color: #1a226b;
+    line-height: 29px;
+    align-self: center;
+    fill: solid #1a226b;
+   
+}
+
+.header__login {
+    width: calc(60/1440*100vw);
+    height: calc(29/1440*100vw);
+    text-decoration: none;
+    font-size: calc(24/1440*100vw);
+    align-self: center;
+    font-family: "Inter";
+    font-style: bold;
+    line-height: calc(29/1440*100vw);
+    align: left;
+    color: #787878;
+    fill: solid #787878;
+   
+}
+
+
+.main {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.form {
+    position: relative;
+    width: calc(600/1440*100vw);
+    height: calc(383/1440*100vw);
+    margin: calc(125/1440*100vw) auto;
+    padding-top: calc(26/1440*100vw);
+    padding-right: calc(45/1440*100vw);
+    padding-bottom: calc(45/1440*100vw);
+    padding-left: calc(45/1440*100vw);
+    padding-bottom: calc(33 / 1440 * 100vw);
+    justify-content: center;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+}
+
+.form__heading {
+    width: calc(115/1440*100vw);
+    height: calc(50/1440*100vw);
+    padding-left:calc(210/1440*100vw);
+    text-align: center;
+    font-family: "Roboto";
+    font-style: bold;
+    font-size: calc(50/1440*100vw);
+    line-height: calc(50/1440*100vw);
+    color: #787878;
+}
+
+
+.form__input-email {
+    margin-top: calc(14/ 1440* 100vw);
+}
+
+
+
+.input {
+    width: calc(509/1440*100vw);
+    height: calc(49/1440*100vw);
+    padding-left: calc(15/1440*100vw);
+    border: 2px solid #787878;
+    background: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: calc(28/1440*100vw);
+    line-height: calc(36/1440*100vw);
+    color: #787878;
+}
+
+::placeholder {
+    color: #CCCCCC;
+    transform: translateY(calc(0.3 / 1440 * 100vw));
+}
+
+.form-input-email__label {
+    width: calc(56/1440*100vw);
+    height: calc(16/1440*100vw);
+    margin-left:calc(10/1440*100vw);
+    margin-top: calc(10/1440*100vw);
+    margin-right: calc(8/1440*100vw);
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: calc(16/1440*100vw);
+    line-height: calc(16/1440*100vw);
+    color: #787878;
+    fill: solid #787878;
+}
+
+.form__input-password {
+    margin-bottom: calc(52/ 1440* 100vw);
+    margin-top: calc(32/ 1440* 100vw);
+}
+
+.form-input-password__label {
+    width: calc(56/1440*100vw);
+    height: calc(16/1440*100vw);
+    margin-left:calc(10/1440*100vw);
+    top: 2px;
+    margin-right: calc(8/1440*100vw);
+    margin-left: calc(10/1440*100vw);
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: calc(16 / 1440 * 100vw);
+    color: #787878;
+    fill: solid #787878;
+}
+
+.form__button {
+    margin-bottom: 20px;
+}
+
+.form-button__input {
+    position: absolute;
+    width: calc(180/1440*100vw);
+    height: calc(52/1440*100vw);
+    margin-bottom: calc(37/1440*100vw);
+    left: calc(220/1440*100vw);
+    top: calc(294/1440*100vw);
+    border: none;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    background: #1a226b;
+    font-weight: 700;
+    font-size: calc(24/1440*100vw);
+    line-height: calc(16/1440*100vw);
+    color: #ffffff;
+}
+
+.form-button__input:active {
+    border: 2px solid #aeaeae;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: calc(80 /768 * 100vw);
+        display: flex;
+        box-shadow: 0px calc(4/768* 100vw) calc(4 /768* 100vw) rgba(0, 0, 0, 0.25);
+        font-family: Bold;
+        align-items: center;
+    }
+    
+    .header__logo {
+        display: flex;
+        width: calc(222/768*100vw);
+        height: calc(50/768*100vw);
+        padding-top: calc(5/768*100vw);
+        padding-left: calc(20/768*100vw);
+        align-self: center;
+        margin-bottom: calc(35/768*100vw);
+    }
+
+    .header__h1 {
+        display: flex;
+        width:calc(162/768*100vw);
+        height:calc(29/768*100vw);
+        margin: 23px 0px 28px 34px;
+        margin-right: calc(230/768*100vw);
+        font-family: "Inter";
+        font-style: bold;
+        font-size:calc(24/768*100vw);
+        align-self: center;
+        line-height: calc(29/768*100vw);
+        align: left;
+        color: #787878;
+        fill: solid #787878;
+    }
+
+    .header__registration{
+        width: calc(105/768*100vw);
+        height: calc(19/768*100vw);
+        margin-bottom: calc(31/768*100vw);
+        margin-top: calc(30/768*100vw);
+        margin-right: calc(36/768*100vw);
+        text-decoration: none;
+        font-size: calc(16/768*100vw);
+        font-family: "Inter";
+        font-style: bold;
+        color: #1a226b;
+        line-height: 29px;
+        align-self: center;
+        fill: solid #1a226b;
+    }
+
+    .header__login {
+        width: calc(40/768*100vw);
+        height: calc(19/768*100vw);
+        text-decoration: none;
+        margin-bottom: calc(31/768*100vw);
+        font-size: calc(16/768*100vw);
+        align-self: center;
+        font-family: "Inter";
+        font-style: bold;
+        line-height: calc(19/768*100vw);
+        align: left;
+        color: #787878;
+        fill: solid #787878;
+    }
+
+    .form {
+        position: relative;
+        width: calc(600/768*100vw);
+        height: calc(383/768*100vw);
+        margin: calc(125/768*100vw) auto;
+        padding-top: calc(26/768*100vw);
+        padding-right: calc(45/768*100vw);
+        padding-bottom: calc(45/768*100vw);
+        padding-left: calc(45/768*100vw);
+        padding-bottom: calc(32/768 * 100vw);
+        justify-content: center;
+        box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+        background: #ffffff;
+    }
+
+    .form__heading {
+        width: calc(115/768*100vw);
+        height: calc(50/768*100vw);
+        padding-left:calc(210/768*100vw);
+        text-align: center;
+        font-family: "Roboto";
+        font-style: bold;
+        font-size: calc(50/768*100vw);
+        line-height: calc(50/768*100vw);
+        color: #787878;
+    }
+
+    .form__input-email {
+        margin-top: calc(14/768* 100vw);
+    }
+
+    
+    .input {
+    width: calc(509/768*100vw);
+    height: calc(49/768*100vw);
+    padding-left: calc(15/768*100vw);
+    border: 2px solid #787878;
+    background: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: calc(28/768*100vw);
+    line-height: calc(36/768*100vw);
+    color: #787878;
+    }
+
+    ::placeholder {
+        color: #CCCCCC;
+        transform: translateY(calc(0.3 /768* 100vw));
+    }
+
+    .form-input-email__label {
+        width: calc(40/768*100vw);
+        height: calc(16/768*100vw);
+        margin-left:calc(10/768*100vw);
+        margin-top: calc(10/768*100vw);
+        margin-right: calc(8/768*100vw);
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: calc(16/768*100vw);
+        line-height: calc(16/768*100vw);
+        color: #787878;
+        fill: solid #787878;
+    }
+
+    
+    .form__input-password {
+    margin-bottom: calc(52/768* 100vw);
+    margin-top: calc(32/768* 100vw);
+    }
+
+    .form-input-password__label {
+        width: calc(56/768*100vw);
+        height: calc(16/768*100vw);
+        margin-left:calc(10/1440*100vw);
+        top: 2px;
+        margin-right: calc(8/1440*100vw);
+        margin-left: calc(10/1440*100vw);
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: calc(16 /768 * 100vw);
+        color: #787878;
+        fill: solid #787878;
+    }
+
+    .form__button {
+        padding-bottom: 20px;
+    }
+
+   
+    .form-button__input {
+        position: absolute;
+        width: calc(180/768*100vw);
+        height: calc(52/768*100vw);
+        margin-bottom: calc(37/768*100vw);
+        left: calc(210/768*100vw);
+        top: calc(320/768*100vw);
+        border: none;
+        text-align: center;
+        font-family: "Roboto";
+        font-style: normal;
+        background: #1a226b;
+        font-weight: 700;
+        font-size: calc(24/768*100vw);
+        line-height: calc(16/768*100vw);
+        color: #ffffff;
+    }
+
+    .form-button__input:active {
+        border: 2px solid #aeaeae;
+    }
+}
+   

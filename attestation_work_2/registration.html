@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,regular,italic,500,700,900," rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+<body>
+<header class="header">
+<img src="1280pxIUlogo.png" alt="лого">
+<div class="header__heading">
+  <h1>PCS Frontend</h1>
+</div>
+<nav>
+  <ul>
+  <li style="color: #1A226B">Регистрация</a></li>
+  <li><a href="index.html">Вход</a></li>
+  </ul>
+</nav>
+</header>
+<main>
+    <form class="form">
+      <div class="form__heading">
+        <h2>Регистрация</h2>
+        </div>
+        <div class="form__input">
+        <div class="form-input__email">
+          <label class="form-input-email__label" for="email">* Email</label>
+          <div class="form-input-email__error" id="email-error"></div>
+          <input class="form-input__input" id="email" name="email" type="email" placeholder="Введите email">
+        </div>
+        <div class="form-input__password">
+          <label class="form-input-password__label" for="password">* Пароль</label>
+          <div class="form-input-password__error" id="password-error"></div>
+          <input class="form-input__input" id="password" name="password" type="password" placeholder="Введите пароль">
+        </div>
+        <div class="form-input__passwordrepeat">
+          <label class="form-input-passwordrepeat__label" for="passwordrepeat">* Подтверждение пароля</label>
+          <div class="form-input-passwordrepeat__error" id="passwordrepeat-error"></div>
+          <input class="form-input__input" id="passwordrepeat" name="passwordrepeat" type="password" placeholder="Подтвердите пароль">
+        </div>
+        <div class="form-input__radio"> 
+          <div class="form-input-radio__gender">Пол</div>
+          <div class="form-input-radio__box">
+          <input class="form-input-radio__input" id="radio1" type="radio" name="gender" value="man">
+          <label class="form-input-radio__label" for="radio1">Мужчина</label>
+        </div>
+          <div class="form-input-radio__box">
+          <input class="form-input-radio__input" id="radio2" type="radio" name="gender" value="woman">
+          <label class="form-input-radio__label" for="radio2">Женщина</label>
+        </div>
+        </div>
+        <div class="form-input__textarea">
+            <label class="form-input-textarea__label"  for="textarea">О себе</label>
+            <textarea class="form-input-textarea__input" id="textarea" name="textarea" placeholder="Расскажите о себе..."></textarea>
+        </div>
+        <div class="form-input__checkbox">
+                <input id="checkbox" type="checkbox">
+                <label class="form-input-checkbox__label" for="checkbox">Я согласен получать обновления на почту</label> 
+        </div>
+          <button class="form-button" id="submit">Регистрация</button>
+        </div>
+</form>
+</main>
+<script src="script.js"></script>
+<footer></footer>    
+</body>
+</html>
